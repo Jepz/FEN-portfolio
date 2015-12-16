@@ -1,0 +1,72 @@
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+@media (max-width: @screen-md) {
+    body{font-size: 14px;}
+}
+
+@media (max-width: @screen-lg) {
+    body{font-size: 20px;}
+}
+h1,h2,h4{font-family: 'Raleway', sans-serif;}
+h3{font-family: 'Droid Serif', serif;}
+p{font-family: 'Lora', serif;}
+
+
+/* NAVBAR STYLING */
+
+.navbar-default {
+    background-color:transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color:transparent;
+}
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 42%;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+h1,h2,h3,h4{
+  text-transform: uppercase;
+}
+h1{
+   font-size: 1.5em;
+}
+h4{
+  font-size: 1em;
+}
+
+.text-right{
+text-align: right;
+}
+
+.logo{
+  padding:1rem;
+}
+.logo svg{
+  width:4em;
+}
+
+section.row div{
+  margin-bottom: 10px;
+}
+footer{
+  border-top: 2px #E5E5E5 solid;
+  margin-top:10rem;
+
+}

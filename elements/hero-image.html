@@ -1,0 +1,23 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<dom-module id="hero-image">
+    <template>
+      <section class="row">
+        <div class="col-lg-12">
+          <figure>
+            <picture>
+              <source media="(min-width: 1200px)" srcset="http://placehold.it/2280x700 2x, http://placehold.it/1140x350">
+              <source media="(min-width: 992px)" srcset="http://placehold.it/1880x600 2x, http://placehold.it/940x300">
+              <source media="(min-width: 768px)" srcset="http://placehold.it/1440x500 2x, http://placehold.it/720x250">
+              <img class="img-responsive" src="http://placehold.it/720x250" alt="Hero image">
+            </picture>
+          </figure>
+        </div>
+      </section>
+    </template>
+
+    <script>
+    	Polymer({
+    		is: "hero-image"
+    	});
+    </script>
+</dom-module>
